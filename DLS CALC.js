@@ -213,17 +213,17 @@
             vAO2=(vAN1*1);
             document.getElementById("A2O").value=(vAO2*1);
         }
-        if((vAO3*1)>(vAO2*1)&&(vAO3!=0))
+        if((vAO3*1)<(vAO2*1)&&(vAO3!=0))
         {
             vAO3=(vAN2*1);
             document.getElementById("A3O").value=(vAO3*1);
         }
-        if((vAO4*1)>(vAO3*1)&&(vAO4!=0))
+        if((vAO4*1)<(vAO3*1)&&(vAO4!=0))
         {
             vAO4=(vAN3*1);
             document.getElementById("A4O").value=(vAO4*1);
         }
-        if((vAO5*1)>(vAO5*1)&&(vAO5!=0))
+        if((vAO5*1)<(vAO5*1)&&(vAO5!=0))
         {
             vAO5=(vAN5*1);
             document.getElementById("A5O").value=(vAO5*1);
@@ -341,17 +341,17 @@
             vBO2=(vBN1*1);
             document.getElementById("B2O").value=(vBO2*1);
         }
-        if((vBO3*1)>(vBO2*1)&&(vBO3!=0))
+        if((vBO3*1)<(vBO2*1)&&(vBO3!=0))
         {
             vBO3=(vBN2*1);
             document.getElementById("B3O").value=(vBO3*1);
         }
-        if((vBO4*1)>(vBO3*1)&&(vBO4!=0))
+        if((vBO4*1)<(vBO3*1)&&(vBO4!=0))
         {
             vBO4=(vBN3*1);
             document.getElementById("B4O").value=(vBO4*1);
         }
-        if((vBO5*1)>(vBO5*1)&&(vBO5!=0))
+        if((vBO5*1)<(vBO5*1)&&(vBO5!=0))
         {
             vBO5=(vBN5*1);
             document.getElementById("B5O").value=(vBO5*1);
